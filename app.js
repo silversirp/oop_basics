@@ -6,3 +6,12 @@ function createNewPerson(name) {
     };
     return obj;
 }
+
+/*
+// use this in Console
+const salva = createNewPerson('Salva');
+salva.name;
+salva.greeting();
+
+
+ */
