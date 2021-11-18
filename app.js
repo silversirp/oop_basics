@@ -28,7 +28,7 @@ salva.greeting();
 */
 
 // shape constructor
-function Shape(name, sides, sideLength) {
+/*function Shape(name, sides, sideLength) {
     // atributes - fields
   this.name = name;
   this.sides = sides;
@@ -38,7 +38,7 @@ function Shape(name, sides, sideLength) {
         this.perimeter = this.sides * this.sideLength;
         console.log(this.perimeter);
     }
-}
+}*/
 
 // object creator
 let square = new Shape('square', 4, 5);
@@ -48,7 +48,7 @@ let triangle = new Shape('triangle', 3, 3);
 console.log(triangle);
 
 // object method
-square.calcPerimenter();
-triangle.calcPerimenter();
+square.calcPerimeter();
+triangle.calcPerimeter();
 // Write your code below here
 
