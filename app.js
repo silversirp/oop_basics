@@ -1,4 +1,4 @@
-function Person(first, last, age, gender, interests) {
+/*function Person(first, last, age, gender, interests) {
     this.name = {
         first : first,
         last : last
@@ -17,7 +17,7 @@ function Person(first, last, age, gender, interests) {
 
 let person1 = new Person('Bob', 'Smith', 32, 'male', ['music', 'skiing']);
 person1.greeting();
-person1.bio();
+person1.bio();*/
 
 
 /*
@@ -25,6 +25,30 @@ person1.bio();
 const salva = createNewPerson('Salva');
 salva.name;
 salva.greeting();
+*/
 
+// shape constructor
+function Shape(name, sides, sideLength) {
+    // atributes - fields
+  this.name = name;
+  this.sides = sides;
+  this.sideLength = sideLength;
+  // functions - methods
+    this.calcPerimenter = function() {
+        this.perimeter = this.sides * this.sideLength;
+        console.log(this.perimeter);
+    }
+}
 
- */
+// object creator
+let square = new Shape('square', 4, 5);
+console.log(square);
+
+let triangle = new Shape('triangle', 3, 3);
+console.log(triangle);
+
+// object method
+square.calcPerimenter();
+triangle.calcPerimenter();
+// Write your code below here
+
