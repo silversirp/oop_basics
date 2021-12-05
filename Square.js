@@ -8,3 +8,4 @@ class Square extends Shape {
         console.log('Area: ' + this.area);
     }
 }
+
